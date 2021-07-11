@@ -16,4 +16,8 @@ class Home extends BaseController
     {
         return view('auth/create');
     }
+    public function absensi()
+    {
+        return view('absensi');
+    }
 }
