@@ -9,7 +9,7 @@
       <div class="card-body">
         <form action="../../index3.html" method="post">
           <div class="input-group mb-3">
-            <input type="email" class="form-control" placeholder="Email">
+            <input type="text" class="form-control" placeholder="Nomor Induk Karyawan">
             <div class="input-group-append">
               <div class="input-group-text">
                 <span class="fas fa-envelope"></span>
@@ -29,20 +29,20 @@
               <div class="icheck-primary">
                 <input type="checkbox" id="remember">
                 <label for="remember">
-                  Remember Me
+                  Ingat Saya
                 </label>
               </div>
             </div>
             <!-- /.col -->
             <div class="col-4">
-              <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+              <button type="submit" class="btn btn-primary btn-block">Masuk</button>
             </div>
             <!-- /.col -->
           </div>
         </form>
 
         <p class="mb-1">
-          <a href="forgot-password.html">I forgot my password</a>
+          <a href="forgot-password.html">Lupa Password</a>
         </p>
       </div>
       <!-- /.card-body -->
