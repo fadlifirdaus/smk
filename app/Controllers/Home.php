@@ -12,12 +12,16 @@ class Home extends BaseController
     {
         return view('auth/login');
     }
-    public function register()
+    public function admin($subadmin)
     {
-        return view('auth/create');
+        return view('admin/'.$subadmin);
     }
     public function absensi()
     {
         return view('absensi');
+    }
+    public function profile()
+    {
+        return view('profile');
     }
 }

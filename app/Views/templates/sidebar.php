@@ -20,7 +20,7 @@
       <!-- Add icons to the links using the .nav-icon class
          with font-awesome or any other icon font library -->
          <li class="nav-item">
-        <a href="#" class="nav-link active">
+        <a href="<?=base_url();?>" class="nav-link active">
           <i class="nav-icon fas fa-tachometer-alt"></i>
           <p>
             Dashboard
@@ -37,13 +37,13 @@
         </a>
         <ul class="nav nav-treeview">
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?=base_url();?>/home/admin/create" class="nav-link">
               <i class="fas fa-users-cog nav-icon"></i>
               <p>Manajemen Akun</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="<?=base_url();?>/home/admin/rekapabsen" class="nav-link">
               <i class="fas fa-book nav-icon"></i>
               <p>Rekap Absensi</p>
             </a>
@@ -51,7 +51,7 @@
         </ul>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">
+        <a href="<?=base_url();?>/Absensi" class="nav-link">
           <i class="nav-icon fas fa-fingerprint"></i>
           <p>
             Absensi
@@ -59,7 +59,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">
+        <a href="<?=base_url();?>/home/tugas" class="nav-link">
           <i class="nav-icon fas fa-calendar-check"></i>
           <p>
             Tugas
@@ -67,7 +67,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">
+        <a href="<?=base_url();?>/home/profile" class="nav-link">
           <i class="nav-icon fas fa-address-card"></i>
           <p>
             Profile
@@ -75,7 +75,7 @@
         </a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">
+        <a href="<?=base_url();?>/home/login" class="nav-link">
           <i class="nav-icon fas fa-sign-out-alt"></i>
           <p>
             Logout
@@ -88,3 +88,5 @@
 </div>
 <!-- /.sidebar -->
 </aside>
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper p-4">

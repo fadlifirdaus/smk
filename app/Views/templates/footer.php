@@ -1,4 +1,6 @@
-    <!-- Main Footer -->
+</div>
+<!-- /.content-wrapper -->
+<!-- Main Footer -->
     <footer class="main-footer">
       <div class="text-center">
         Copyright &copy; Fadli Firdaus 2021
